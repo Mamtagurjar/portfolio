@@ -1,0 +1,62 @@
+.contact-section {
+  padding: 120px 140px;
+  background: #070011;
+  color: white;
+}
+
+.contact-section h2 {
+  font-size: 42px;
+  margin-bottom: 80px;
+}
+
+.contact-text {
+  max-width: 700px;
+  font-size: 22px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.contact-email {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 25px;
+  font-size: 28px;
+}
+
+.contact-icons svg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-icons svg:hover {
+  color: #b26cff;
+}
+
+/* Add media queries */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 80px 40px;
+  }
+
+  .contact-section h2 {
+    font-size: 32px;
+  }
+
+  .contact-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 40px 16px;
+  }
+
+  .contact-section h2 {
+    font-size: 24px;
+  }
+}

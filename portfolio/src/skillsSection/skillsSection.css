@@ -1,0 +1,30 @@
+.skills-preview {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #070011;
+  padding: 80px 0;
+}
+
+.skills-preview img {
+  width: 100%;
+  max-width: 900px;
+}
+
+@media (max-width: 768px) {
+  .skills-preview {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  .skills-preview img {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-preview img {
+    max-width: 100%;
+  }
+}
+

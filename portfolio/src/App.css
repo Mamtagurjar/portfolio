@@ -1,0 +1,22 @@
+/* Apply sans-serif font family globally */
+body {
+  font-family: 'sans-serif', Arial, Helvetica, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  background: #070011;
+}
+
+/* Add media queries */
+@media (max-width: 768px) {
+  .app {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
